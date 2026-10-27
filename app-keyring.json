@@ -1,0 +1,39 @@
+{
+  "v": 1,
+  "slots": [
+    {
+      "id": "slot-1",
+      "kind": "password",
+      "kdf": {
+        "alg": "argon2id",
+        "salt": "MivkTiDqn/UjT0RV9s85Fw==",
+        "memoryKiB": 65536,
+        "iterations": 3,
+        "parallelism": 1
+      },
+      "wrapped": {
+        "iv": "A0/zuCcakFIdvkyE",
+        "ct": "4r1TZashR8cu6s+xuM5WPi3Vmx4OWQyzzBm8Gug+uKYg//O/yHpbPJy3Minl5mGb"
+      }
+    },
+    {
+      "id": "slot-2",
+      "kind": "password",
+      "kdf": {
+        "alg": "argon2id",
+        "salt": "u3JcnsSv9z6ElGQU/7ohYA==",
+        "memoryKiB": 65536,
+        "iterations": 3,
+        "parallelism": 1
+      },
+      "wrapped": {
+        "iv": "SkHQa7NcjymSBH8K",
+        "ct": "EuDKNMVeQu70nSFSxPLItrkz5btjC6tcss8meNelQy++XJ9aLJCSdwqhmv5iKA6X"
+      }
+    }
+  ],
+  "check": {
+    "iv": "ECGz+ajnbHp5ZzGA",
+    "ct": "yQljKgStJ4WXJGnYWM4WBKDRX62StJbWX2+tYAlVvg=="
+  }
+}
